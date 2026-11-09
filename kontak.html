@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontak KEMATIF</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a class="brand" href="index.html">
+                <img src="images/logo-kematif.png" alt="Logo KEMATIF" onerror="this.style.display='none'">
+                <span>KEMATIF<small>Teknik Informatika POLIJE</small>
+                </span>
+            </a>
+            <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+            <div class="nav-links">
+                <a href="index.html">Beranda</a>
+                <a href="tentang.html">Tentang</a>
+                <a href="kegiatan.html">Kegiatan</a>
+                <a href="kepengurusan.html">Kepengurusan</a>
+                <a href="divisi.html">Divisi</a>
+                <a href="faq.html">FAQ</a>
+                <a class="active" href="kontak.html">Kontak</a>
+            </div>
+        </nav>
+    </header>
+<main>
+    <section class="page-hero">
+        <div class="container">
+            <p class="eyebrow">TERHUBUNG DENGAN KAMI</p>
+            <h1>Kontak KEMATIF</h1>
+            <p>Silakan hubungi KEMATIF melalui informasi komunikasi resmi.</p>
+        </div>
+    </section>
+<section class="section container two-col">
+    <div><p class="eyebrow">INFORMASI KONTAK</p>
+        <h2>Mari terhubung</h2>
+        <div class="contact-item">
+            <b>Lokasi</b>
+            <span>Politeknik Negeri Jember, Jember, Jawa Timur</span>
+        </div>
+        <div class="contact-item">
+            <b>Email</b>
+            <span>Tambahkan alamat email resmi KEMATIF</span>
+        </div>
+        <div class="contact-item">
+            <b>Media sosial</b>
+            <span>Tambahkan tautan Instagram atau media sosial resmi</span>
+        </div>
+    </div>
+    <form class="contact-form" id="contactForm">
+        <h3>Kirim pesan</h3>
+        <label for="nama">Nama</label>
+        <input id="nama" name="nama" required placeholder="Nama kamu">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="nama@email.com">
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="5" required placeholder="Tulis pesan..."></textarea>
+        <button class="btn primary" type="submit">Kirim melalui Email</button>
+        <p class="form-note" id="formNote">Tombol akan membuka aplikasi email di perangkatmu.</p>
+    </form>
+</section>
+</main>
+<footer class="footer">
+    <div class="container footer-inner">
+        <div>
+            <strong>KEMATIF</strong>
+            <p>Teknik Informatika POLIJE</p>
+        </div>
+        <p>© <span id="year"></span> KEMATIF</p>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
