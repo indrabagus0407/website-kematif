@@ -37,6 +37,7 @@ a {
 }
 
 .site-header {
+    background-color: #123b63;
     position: sticky;
     top: 0;
     z-index: 20;
@@ -59,7 +60,7 @@ a {
     font-family: Manrope, sans-serif;
     font-size: 21px;
     font-weight: 800;
-    color: var(--navy);
+    color: #ffff;
     line-height: 1.15
 }
 
@@ -72,7 +73,7 @@ a {
 .brand small {
     display: block;
     font: 500 10px 'DM Sans', sans-serif;
-    color: var(--muted);
+    color: #a5ddeb;
     letter-spacing: .3px;
     margin-top: 4px
 }
@@ -86,13 +87,13 @@ a {
 .nav-links a {
     font-size: 13px;
     font-weight: 700;
-    color: #40516a;
+    color: #ffff;
     transition: .2s
 }
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: var(--blue)
+    color: #67e8f9;
 }
 
 .menu-toggle {
@@ -106,13 +107,13 @@ a {
 }
 
 .hero {
-    background: linear-gradient(115deg, #0e2853 0%, #145b91 65%, #1685a9 100%);
+    background: linear-gradient(115deg, #0b2545 0%, #123b63 55%, #167c9b 100%);
     color: rgb(238, 231, 231);
     min-height: 510px;
     display: flex;
     align-items: center;
     position: relative;
-    overflow: hidden
+    overflow: hidden ;
 }
 
 .hero:after {
