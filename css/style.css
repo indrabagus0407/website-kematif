@@ -2,7 +2,6 @@
 
 /* ---------- 1. VARIABEL WARNA (ganti di sini untuk ubah tema) ---------- */
 :root {
-<<<<<<< HEAD
     --navy-deep: #060f24;
     --navy: #0a1f44;
     --navy-mid: #0d3166;
@@ -21,7 +20,7 @@
     --shadow-sm: 0 6px 20px rgba(10, 31, 68, .06);
     --shadow-md: 0 18px 40px rgba(10, 31, 68, .14);
     --glow: 0 10px 30px rgba(42, 167, 224, .35);
-=======
+
     --navy: #102a56;
     --blue: #1769aa;
     --cyan: #27a7c9;
@@ -30,7 +29,7 @@
     --pale: #f5faff;
     --white: #f6eeee;
     --line: #e3eaf2;
->>>>>>> 9650c3231d44642c2d7adca6cf931d31a23ccb02
+
 }
 
 /* ---------- 2. DASAR ---------- */
