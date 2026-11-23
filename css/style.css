@@ -20,6 +20,16 @@
     --shadow-sm: 0 6px 20px rgba(10, 31, 68, .06);
     --shadow-md: 0 18px 40px rgba(10, 31, 68, .14);
     --glow: 0 10px 30px rgba(42, 167, 224, .35);
+
+    --navy: #102a56;
+    --blue: #1769aa;
+    --cyan: #27a7c9;
+    --ink: #17243b;
+    --muted: #64748b;
+    --pale: #f5faff;
+    --white: #f6eeee;
+    --line: #e3eaf2;
+
 }
 
 /* ---------- 2. DASAR ---------- */
